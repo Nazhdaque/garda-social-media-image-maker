@@ -1,0 +1,16 @@
+/* |||||||||| |||||||||| |||||||||| |||||||||| sm */
+@media (width <= 768px) {
+	.sm-d-none {
+		display: none;
+	}
+}
+
+/* |||||||||| |||||||||| |||||||||| |||||||||| xs */
+@media (width <= 576px) {
+	.brand-logo {
+		--logo-size: 7rem;
+
+		position: absolute;
+		top: 0.5em;
+	}
+}

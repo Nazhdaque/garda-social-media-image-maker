@@ -1,0 +1,4 @@
+.__slide-2 {
+	--clr-bg: hsl(var(--clr-0a));
+	--clr-solid: hsl(var(--clr-0b));
+}
