@@ -1,12 +1,17 @@
 .img-maker {
+	--gradient-1: linear-gradient(
+		30deg,
+		hsl(var(--clr-1a)) 40%,
+		hsl(var(--clr-1b)) 70%
+	);
 	--clr-solid: hsl(var(--clr-0a));
 	--logo-size: calc(12rem * var(--mod, 1));
-	--logo-show: none;
-	/* --header-show: none; */
-	/* --footer-show: none; */
-	/* --body-show: none; */
-	/* --sub-show: none; */
-	/* --sub-txt-show: none; */
+	--display-logo: none;
+	/* --display-header: none; */
+	/* --display-footer: none; */
+	/* --display-body: none; */
+	--display-sub: none;
+	/* --display-sub-txt: none; */
 	--fs-top: calc(1.5rem * var(--mod, 1));
 	--fs-btm: calc(1.25rem * var(--mod, 1));
 	--fs-ttl: calc(2.5rem * var(--mod, 1));
@@ -25,6 +30,7 @@
 	display: grid;
 	grid-template-rows: min-content auto min-content;
 	line-height: 1.1;
+	background-color: hsl(var(--clr-0b));
 }
 .img-maker::before {
 	position: absolute;
@@ -34,6 +40,9 @@
 	height: 100%;
 	z-index: 1;
 	background-color: hsl(0 0% 0% / var(--darker, 0));
+	/* background-image: var(--gradient-1); */
+	/* mix-blend-mode: overlay; */
+	/* filter: saturate(1.5); */
 }
 
 .header,
@@ -50,7 +59,7 @@
 	--clr-solid: hsl(var(--clr-0b));
 
 	background-color: hsl(var(--clr-0a));
-	border-radius: 0.4em;
+	border-radius: 0.5em;
 	padding: 0.5em 1em;
 	font-size: var(--fs-top);
 	font-weight: var(--fw-eb);
@@ -59,18 +68,18 @@
 
 /* |||||||||| |||||||||| |||||||||| |||||||||| header */
 .header {
-	display: var(--header-show, grid);
+	display: var(--display-header, grid);
 	grid-row: 1;
 
 	.logo {
 		min-width: var(--logo-size);
-		display: var(--logo-show, block);
+		display: var(--display-logo, block);
 	}
 }
 
 /* |||||||||| |||||||||| |||||||||| |||||||||| body */
 .body {
-	display: var(--body-show, grid);
+	display: var(--display-body, grid);
 	grid-template-columns: auto;
 	place-items: center;
 	grid-row: 2;
@@ -88,17 +97,17 @@
 
 	.sub {
 		font-size: var(--fs-sub);
-		display: var(--sub-show);
+		display: var(--display-sub);
 	}
 	.sub :nth-child(2n) {
 		font-size: 0.75em;
-		display: var(--sub-txt-show, block);
+		display: var(--display-sub-txt, block);
 	}
 }
 
 /* |||||||||| |||||||||| |||||||||| |||||||||| footer */
 .footer {
-	display: var(--footer-show, grid);
+	display: var(--display-footer, grid);
 	place-items: center start;
 	font-size: var(--fs-btm);
 	grid-row: 3;
