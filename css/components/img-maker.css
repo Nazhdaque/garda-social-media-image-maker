@@ -1,26 +1,23 @@
 .img-maker {
 	--clr-solid: hsl(var(--clr-0a));
+	--logo-size: calc(12rem * var(--mod, 1));
+	--logo-show: none;
+	/* --header-show: none; */
+	/* --footer-show: none; */
+	/* --body-show: none; */
+	/* --sub-show: none; */
+	/* --sub-txt-show: none; */
+	--fs-top: calc(1.5rem * var(--mod, 1));
+	--fs-btm: calc(1.25rem * var(--mod, 1));
+	--fs-ttl: calc(2.5rem * var(--mod, 1));
+	--fs-sub: calc(1.5rem * var(--mod, 1));
+	--gap-ttl-sub: calc(1em * var(--mod, 1));
 	--darker: 25%;
 	--w: 700px;
 	--asp: 7 / 5;
 	/* --mod: 1.25;
 	--w: 900px;
 	--asp: 9 / 6; */
-
-	--logo-show: none;
-	--logo-size: calc(12rem * var(--mod, 1));
-
-	/* --header-show: none; */
-	/* --footer-show: none; */
-	/* --body-show: none; */
-	/* --sub-show: none; */
-
-	--fs-top: calc(1.5rem * var(--mod, 1));
-	--fs-btm: calc(1.25rem * var(--mod, 1));
-	--fs-ttl: calc(2.5rem * var(--mod, 1));
-	--fs-sub: calc(1.5rem * var(--mod, 1));
-
-	--gap-ttl-sub: calc(1em * var(--mod, 1));
 
 	max-width: var(--w);
 	aspect-ratio: var(--asp);
@@ -93,8 +90,9 @@
 		font-size: var(--fs-sub);
 		display: var(--sub-show);
 	}
-	.sub :nth-child(2) {
+	.sub :nth-child(2n) {
 		font-size: 0.75em;
+		display: var(--sub-txt-show, block);
 	}
 }
 
@@ -110,7 +108,7 @@
 		font-weight: var(--fw-bd);
 	}
 
-	.txt :nth-child(2) {
+	.txt :nth-child(2n) {
 		font-size: 0.75em;
 	}
 }

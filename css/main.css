@@ -11,7 +11,7 @@
 @import url(./components/beams.css) layer(components);
 @import url(./components/nav-panel.css) layer(components);
 @import url(./components/slide-number.css) layer(components);
-@import url(./components/image-maker.css) layer(components);
+@import url(./components/img-maker.css) layer(components);
 
 @import url(./parts/slides.css) layer(parts);
 @import url(./parts/slide-1.css) layer(parts);

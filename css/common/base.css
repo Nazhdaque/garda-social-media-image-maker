@@ -59,7 +59,7 @@ body {
 	font-size: var(--fs-rg);
 	line-height: var(--lh-rg);
 
-	background-image: url(/images/img-5-xl.webp);
+	background-image: url(/images/bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
