@@ -6,18 +6,20 @@
 	);
 	--clr-solid: hsl(var(--clr-0a));
 	--logo-size: calc(12rem * var(--mod, 1));
+
 	--display-logo: none;
 	/* --display-header: none; */
 	/* --display-footer: none; */
 	/* --display-body: none; */
-	--display-sub: none;
-	/* --display-sub-txt: none; */
+	/* --display-sub: none; */
+	--display-sub-txt: none;
+
 	--fs-top: calc(1.5rem * var(--mod, 1));
 	--fs-btm: calc(1.25rem * var(--mod, 1));
 	--fs-ttl: calc(2.5rem * var(--mod, 1));
-	--fs-sub: calc(1.5rem * var(--mod, 1));
+	--fs-sub: calc(1.6rem * var(--mod, 1));
 	--gap-ttl-sub: calc(1em * var(--mod, 1));
-	--darker: 25%;
+	--darker: 40%;
 	--w: 700px;
 	--asp: 7 / 5;
 	/* --mod: 1.25;
