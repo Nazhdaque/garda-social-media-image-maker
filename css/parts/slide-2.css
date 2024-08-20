@@ -1,4 +1,11 @@
 .__slide-2 {
-	--clr-bg: hsl(var(--clr-0a));
-	--clr-solid: hsl(var(--clr-0b));
+	background-image: url(/images/bgs/bg-triangles-right-bottom.svg);
+	background-size: 15%;
+	background-position: right 0 bottom 0;
+}
+
+.__slide-2 .img-maker {
+	--mod: 1.25;
+	--w: 900px;
+	--asp: 9 / 6;
 }

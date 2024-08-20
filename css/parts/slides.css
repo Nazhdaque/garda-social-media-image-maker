@@ -1,5 +1,6 @@
 .slide {
-	/* --radius: 1rem; */
+	--clr-bg: hsl(var(--clr-0a));
+	--clr-solid: hsl(var(--clr-0b));
 
 	counter-increment: slide-counter;
 	background-color: var(--clr-bg, initial);

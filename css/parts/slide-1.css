@@ -1,9 +1,10 @@
 .__slide-1 {
-	--clr-bg: hsl(var(--clr-0a));
-	--clr-solid: hsl(var(--clr-0b));
-
 	background-image: url(/images/bgs/bg-light-bulbs.svg);
 	background-size: 30%;
-	background-position: 80% 160%;
 	background-position: right 20% bottom -70%;
+}
+
+.__slide-1 .img-maker {
+	--w: 700px;
+	--asp: 7 / 5;
 }

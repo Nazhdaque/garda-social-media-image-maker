@@ -1,5 +1,7 @@
 :root {
-	--max-content-width: 100rem;
+	--max-content-width: 115rem;
+	--time: 0.1s;
+	--easing: ease-in;
 
 	/* |||||||||| |||||||||| |||||||||| |||||||||| */
 	--clr-0a: #ffffff;
