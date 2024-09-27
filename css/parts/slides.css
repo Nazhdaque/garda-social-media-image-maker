@@ -8,13 +8,22 @@
 	padding-block: 4rem;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
+	background-image: url(/images/bgs/bg-light-bulbs.svg);
+	background-size: 30%;
+	background-position: right 20% bottom -70%;
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	row-gap: 4rem;
 
+	/* background-image: url(/public/images/bgs/pattern-1.svg);
+	background-size: 20%; */
+
+	row-gap: 4rem;
 	grid-auto-rows: min-content 1fr;
 	align-items: start;
+}
+.slide:nth-child(2n-1) {
+	background-image: url(/images/bgs/bg-triangles-right-bottom.svg);
+	background-size: 15%;
+	background-position: right 0 bottom 0;
 }
 
 /* top right beam */
@@ -61,4 +70,49 @@
 	justify-content: space-between;
 	/* align-items: baseline; */
 	gap: 2em;
+}
+
+/* |||||||||| |||||||||| |||||||||| |||||||||| */
+
+:nth-child(1 of .slide) .img-maker {
+	--w: 700px;
+	--asp: 7 / 5;
+
+	/* ||||| ||||| ||||| ||||| ||||| footer */
+	--display-footer: none;
+}
+
+:nth-child(2 of .slide) .img-maker {
+	--w: 900px;
+	--asp: 9 / 6;
+	--mod: 1.25;
+
+	--display-logo: block;
+	--display-header-tag: none;
+
+	--display-sub: block;
+	--fs-ttl: 5rem;
+	--fs-sub: 2rem;
+	--gap-ttl-sub: 0.01em;
+	--darker: 0.1%;
+}
+
+:nth-child(3 of .slide) .img-maker {
+	--w: 700px;
+	--asp: 7 / 5;
+
+	--body-x: 0;
+	--body-y: 25%;
+
+	--fs-top: 1.5rem;
+	--fs-btm: 1.25rem;
+
+	--fs-ttl: 2.75rem;
+	--fs-sub: 1.75rem;
+	--gap-ttl-sub: 0.75em;
+	--darker: 33%;
+
+	--display-sub: block;
+	--display-sub-txt: block;
+	--display-footer: none;
 }
