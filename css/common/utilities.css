@@ -20,7 +20,8 @@
 	border-radius: var(--radius, initial);
 }
 .img-box > img,
-.img-box > picture {
+.img-box > picture,
+.img-box > iframe {
 	position: absolute;
 	inset: 0;
 	border-radius: var(--radius, initial);
@@ -33,7 +34,8 @@
 	object-position: var(--pos, center);
 }
 
-.o-fit-contain {
+.o-fit-contain,
+iframe {
 	--pos: bottom;
 
 	width: 100%;

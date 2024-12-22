@@ -1,0 +1,73 @@
+/* ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| slide 9 */
+:nth-child(9 of .slide) .img-maker {
+	--logo-size: 17.33rem;
+	--w: 1280px;
+	--asp: 16 / 9;
+	--overlay: var(--gradient-2);
+	/* --w: 1600px;
+	--mod: 1.25; */
+
+	--body-x: 0;
+	--body-y: 0%;
+	--darker: 33%;
+
+	/* ||||| ||||| ||||| ||||| ||||| header */
+	--display-logo: block;
+	/* --display-header: none; */
+	--display-header-tag: none;
+	--display-header-txt: none;
+
+	--fs-top: 1.75rem;
+	--header-txt: 0.6em;
+
+	/* ||||| ||||| ||||| ||||| ||||| body */
+	/* --display-body: none; */
+	--display-sub: none;
+	--display-sub-txt: none;
+
+	--fs-ttl: 4rem;
+	--fs-sub: 2.5rem;
+	--gap-ttl-sub: 0em;
+
+	place-items: center start;
+
+	.ttl {
+		span {
+			display: block;
+			font-size: 1.85rem;
+			font-weight: var(--fw-rg);
+			margin-bottom: 0.333em;
+
+			/* display: none; */
+		}
+	}
+
+	.group {
+		display: grid;
+		grid-template-columns: min-content auto;
+		column-gap: 3rem;
+		place-items: center;
+	}
+	.group::before {
+		content: "";
+		min-width: 17rem;
+		aspect-ratio: 162 / 100;
+		background-image: url(./images/logos/logo-x-w-ndr.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		top: -2%;
+	}
+
+	/* ||||| ||||| ||||| ||||| ||||| footer */
+	/* --display-footer: none; */
+	/* --display-footer-tag: none; */
+	/* --display-footer-txt: none; */
+	--display-footer-txt-sub: none;
+	--fs-btm: 2.6rem;
+
+	.footer {
+		column-gap: 3rem;
+	}
+}

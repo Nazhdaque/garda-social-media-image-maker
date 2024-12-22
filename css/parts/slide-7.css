@@ -1,0 +1,45 @@
+/* ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| slide 7 */
+:nth-child(7 of .slide) .img-maker {
+	--w: 700px;
+	--asp: 7 / 5;
+
+	--body-x: 0;
+	--body-y: 20%;
+	--darker: 33%;
+
+	--clr-solid: hsl(var(--clr-0a));
+
+	/* ||||| ||||| ||||| ||||| ||||| header */
+	--display-logo: none;
+	/* --display-header: none; */
+	/* --display-header-tag: none; */
+	--display-header-txt: block;
+
+	--fs-top: 1.5rem;
+	--header-txt: 1em;
+
+	/* ||||| ||||| ||||| ||||| ||||| body */
+	--display-body: none;
+	--display-sub: none;
+	--display-sub-txt: none;
+
+	--fs-ttl: 4rem;
+	--fs-sub: 1.5rem;
+	--gap-ttl-sub: 0.5em;
+
+	/* ||||| ||||| ||||| ||||| ||||| footer */
+	--display-footer: none;
+	/* --display-footer-tag: none; */
+	/* --display-footer-txt: none; */
+	--display-footer-txt-sub: none;
+
+	--fs-btm: 1.25rem;
+	--fs-btm-txt: 0.9em;
+
+	.header .tag {
+		--clr-solid: hsl(var(--clr-0a));
+
+		background: var(--gradient-1);
+		font-weight: var(--fw-rg);
+	}
+}

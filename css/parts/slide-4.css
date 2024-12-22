@@ -1,0 +1,42 @@
+/* ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| slide 4 */
+:nth-child(4 of .slide) .img-maker {
+	--w: 700px;
+	--asp: 7 / 5;
+
+	--body-x: 0;
+	--body-y: 17%;
+	--darker: 0%;
+	--overlay: var(--gradient-2);
+
+	/* ||||| ||||| ||||| ||||| ||||| header */
+	--display-logo: none;
+	/* --display-header: none; */
+	/* --display-header-tag: none; */
+	--display-header-txt: block;
+
+	--fs-top: 1.75rem;
+	--header-txt: 0.74em;
+
+	/* ||||| ||||| ||||| ||||| ||||| body */
+	/* --display-body: none; */
+	--display-sub: none;
+	--display-sub-txt: none;
+
+	--fs-ttl: 2.5rem;
+	--fs-sub: 1.75rem;
+	--gap-ttl-sub: 1em;
+
+	/* ||||| ||||| ||||| ||||| ||||| footer */
+	/* --display-footer: none; */
+	--display-footer-tag: none;
+	--display-footer-txt: none;
+	--display-footer-txt-sub: none;
+
+	--fs-btm: 1.5rem;
+	--fs-btm-txt: 1em;
+
+	.header {
+		grid-template-columns: min-content;
+		gap: 0.4em;
+	}
+}

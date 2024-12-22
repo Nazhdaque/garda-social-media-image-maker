@@ -14,6 +14,21 @@
 @import url(./components/img-maker.css) layer(components);
 
 @import url(./parts/slides.css) layer(parts);
+@import url(./parts/slide-1.css) layer(parts);
+@import url(./parts/slide-2.css) layer(parts);
+@import url(./parts/slide-3.css) layer(parts);
+@import url(./parts/slide-4.css) layer(parts);
+@import url(./parts/slide-5.css) layer(parts);
+@import url(./parts/slide-6.css) layer(parts);
+@import url(./parts/slide-7.css) layer(parts);
+@import url(./parts/slide-8.css) layer(parts);
+@import url(./parts/slide-9.css) layer(parts);
+@import url(./parts/slide-10.css) layer(parts);
+@import url(./parts/slide-11.css) layer(parts);
+@import url(./parts/slide-12.css) layer(parts);
+@import url(./parts/slide-13.css) layer(parts);
+@import url(./parts/slide-14.css) layer(parts);
+@import url(./parts/slide-15.css) layer(parts);
 
 @import url(./common/utilities.css) layer(utilities);
 @import url(./common/media.css) layer(media);

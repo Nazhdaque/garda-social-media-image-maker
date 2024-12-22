@@ -49,13 +49,13 @@
 
 /* --- */
 .fw-rg {
-	font-weight: var(--fw-rg);
+	font-weight: var(--fw-rg) !important;
 }
 .fw-bd {
-	font-weight: var(--fw-bd);
+	font-weight: var(--fw-bd) !important;
 }
 .fw-eb {
-	font-weight: var(--fw-eb);
+	font-weight: var(--fw-eb) !important;
 }
 
 /* --- */

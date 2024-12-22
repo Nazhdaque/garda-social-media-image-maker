@@ -1,0 +1,37 @@
+/* ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| slide 5 */
+:nth-child(5 of .slide) .img-maker {
+	--w: 700px;
+	--asp: 7 / 5;
+
+	--body-x: 0;
+	--body-y: 15%;
+	--darker: 33%;
+	--overlay: var(--gradient-2);
+
+	/* ||||| ||||| ||||| ||||| ||||| header */
+	--display-logo: none;
+	/* --display-header: none; */
+	/* --display-header-tag: none; */
+	--display-header-txt: none;
+
+	--fs-top: 1.75rem;
+	--header-txt: 0.6em;
+
+	/* ||||| ||||| ||||| ||||| ||||| body */
+	/* --display-body: none; */
+	--display-sub: none;
+	--display-sub-txt: none;
+
+	--fs-ttl: 2.25rem;
+	--fs-sub: 2rem;
+	--gap-ttl-sub: 0.5em;
+
+	/* ||||| ||||| ||||| ||||| ||||| footer */
+	/* --display-footer: none; */
+	--display-footer-tag: none;
+	--display-footer-txt: none;
+	/* --display-footer-txt-sub: none; */
+
+	--fs-btm: 1.75rem;
+	--fs-btm-txt: 0.75em;
+}
