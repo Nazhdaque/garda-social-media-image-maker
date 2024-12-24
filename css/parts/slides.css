@@ -1,3 +1,10 @@
+[data-theme="black"] .slide {
+	--clr-bg: hsl(var(--clr-0b));
+	--clr-solid: hsl(var(--clr-0a));
+
+	background-image: none;
+}
+
 .slide {
 	--clr-bg: hsl(var(--clr-0a));
 	--clr-solid: hsl(var(--clr-0b));

@@ -18,11 +18,13 @@
 	display: grid;
 	grid-template-rows: min-content auto min-content;
 	line-height: 1.1;
-	background-color: hsl(var(--clr-0b));
-	/* background: url(./images/cubes-s.webp); */
+	/* background-color: hsl(var(--clr-0b)); */
+	background: var(--clr-1b-1a);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	outline: 2px dashed hsl(var(--clr-0a));
+	outline-offset: -4px;
 }
 .img-maker::before {
 	position: absolute;
@@ -56,6 +58,7 @@
 	padding: calc(0.5em * var(--mod, 1)) calc(1em * var(--mod, 1));
 	font-weight: var(--fw-eb);
 	line-height: 1;
+	text-align: center;
 }
 
 .logo {
@@ -86,7 +89,8 @@
 
 	.group {
 		display: grid;
-		gap: calc(var(--gap-ttl-sub) * var(--mod, 1));
+		row-gap: calc(var(--gap-ttl-sub) * var(--mod, 1));
+		column-gap: calc(var(--gap-img-ttl) * var(--mod, 1));
 		align-items: center;
 	}
 
@@ -111,7 +115,6 @@
 /* |||||||||| |||||||||| |||||||||| |||||||||| footer */
 .footer {
 	display: var(--display-footer, grid);
-	place-items: center start;
 	font-size: calc(var(--fs-btm) * var(--mod, 1));
 	grid-row: 3;
 

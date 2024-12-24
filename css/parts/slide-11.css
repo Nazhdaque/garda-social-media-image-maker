@@ -28,8 +28,7 @@
 	--fs-ttl: 4rem;
 	--fs-sub: 1.85rem;
 	--gap-ttl-sub: 4rem;
-
-	place-items: center start;
+	--gap-img-ttl: 3rem;
 
 	.group {
 		row-gap: 0;
@@ -54,9 +53,11 @@
 	/* --display-footer-tag: none; */
 	--display-footer-txt: none;
 	--display-footer-txt-sub: none;
-	--fs-btm: 2.5rem;
+	--fs-btm: 2.33rem;
 
 	.footer {
-		column-gap: 3rem;
+		column-gap: var(--gap-img-ttl);
+		grid-template-columns: var(--logo-size) auto;
+		place-items: center stretch;
 	}
 }

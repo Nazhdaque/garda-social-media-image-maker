@@ -34,3 +34,34 @@ slides.forEach(slide =>
 navLinks.forEach(link =>
 	link.addEventListener("click", navLinksAndSlideNumberAnimation)
 );
+
+/* |||||||||| |||||||||| |||||||||| |||||||||| */
+const swapImages = (img, theme = "white") => {
+	let alt = "";
+	theme !== "black"
+		? (alt = img.replace("-w.", "-b."))
+		: (alt = img.replace("-b.", "-w."));
+	return alt;
+};
+
+const toggleLogo = theme => {
+	document
+		.querySelectorAll(".brand-logo img")
+		.forEach(item => item.setAttribute("src", swapImages(item.src, theme)));
+};
+
+const getTheme = () => document.documentElement.getAttribute("data-theme");
+
+const setTheme = theme => {
+	document.documentElement.setAttribute("data-theme", theme);
+	toggleLogo(theme);
+};
+
+const toggleTheme = theme =>
+	theme !== "black" ? setTheme("black") : setTheme("white");
+
+document
+	.querySelectorAll(".toggle")
+	.forEach(toggle =>
+		toggle.addEventListener("click", () => toggleTheme(getTheme()))
+	);

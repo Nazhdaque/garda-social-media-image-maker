@@ -17,6 +17,11 @@
 	--fs-top: 1.75rem;
 	--header-txt: 0.74em;
 
+	.header {
+		grid-template-columns: auto;
+		gap: 0.4em;
+	}
+
 	/* ||||| ||||| ||||| ||||| ||||| body */
 	/* --display-body: none; */
 	--display-sub: none;
@@ -34,9 +39,4 @@
 
 	--fs-btm: 1.5rem;
 	--fs-btm-txt: 1em;
-
-	.header {
-		grid-template-columns: min-content;
-		gap: 0.4em;
-	}
 }
