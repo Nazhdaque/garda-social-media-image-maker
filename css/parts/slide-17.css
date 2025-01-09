@@ -1,13 +1,13 @@
-:nth-child(9 of .slide) .img-maker {
-	--w: 900px;
-	--asp: 9 / 6;
-	--body-y: 15%;
+:nth-child(17 of .slide) .img-maker {
+	--w: 1280px;
+	--asp: 16 / 9;
+	--body-y: 10%;
 	--darken: 0%;
 	--overlay: var(--grd-darken);
 	--bg-pos: left;
 	--col-1: 2em;
 
-	font-size: 8rem;
+	font-size: 10rem;
 
 	.body {
 		--gtc: auto;

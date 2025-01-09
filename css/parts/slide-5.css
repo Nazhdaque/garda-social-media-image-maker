@@ -1,37 +1,39 @@
-/* ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| slide 5 */
 :nth-child(5 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
+	--body-y: 10%;
+	--darken: 0%;
+	--overlay: var(--grd-darken);
+	--bg-pos: left;
 
-	--body-x: 0;
-	--body-y: 15%;
-	--darker: 33%;
-	--overlay: var(--gradient-2);
+	font-size: 3rem;
 
-	/* ||||| ||||| ||||| ||||| ||||| header */
-	--display-logo: none;
-	/* --display-header: none; */
-	/* --display-header-tag: none; */
-	--display-header-txt: none;
+	.header,
+	.footer {
+		font-size: 1.75rem;
+	}
 
-	--fs-top: 1.75rem;
-	--header-txt: 0.6em;
+	.header {
+		--gap: 0.75rem 1.25rem;
 
-	/* ||||| ||||| ||||| ||||| ||||| body */
-	/* --display-body: none; */
-	--display-sub: none;
-	--display-sub-txt: none;
+		:last-child {
+			text-align: center;
+		}
+	}
 
-	--fs-ttl: 2.25rem;
-	--fs-sub: 2rem;
-	--gap-ttl-sub: 0.5em;
+	.ttl-group {
+		grid-template-columns: repeat(2, auto);
+		gap: 0 1rem;
 
-	/* ||||| ||||| ||||| ||||| ||||| footer */
-	/* --display-footer: none; */
-	--display-footer-tag: none;
-	--display-footer-txt: none;
-	/* --display-footer-txt-sub: none; */
+		.sub {
+			font-size: 0.5625em;
+			transform: translateY(-19%);
+		}
 
-	--fs-btm: 1.75rem;
-	--fs-btm-txt: 0.75em;
+		.txt {
+			grid-row: span 2;
+			font-size: 2em;
+			line-height: 1;
+		}
+	}
 }

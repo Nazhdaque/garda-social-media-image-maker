@@ -1,22 +1,21 @@
-:nth-child(15 of .slide) .img-maker {
+:nth-child(16 of .slide) .img-maker {
 	--w: 1280px;
 	--asp: 16 / 9;
 	--body-y: 0%;
 	--darken: 0%;
 	--overlay: var(--grd-darken);
 	--pos: left;
-	--gap: 1rem;
-	/* --gtc: auto; */
 	--col-1: 17.33rem;
 
-	font-size: 4rem;
+	font-size: 5rem;
 
 	.body {
 		--gtc: auto;
 
-		place-self: center;
 		position: absolute;
+		place-self: center;
 	}
+
 	.ttl-group {
 		text-align: center;
 		gap: 0rem;

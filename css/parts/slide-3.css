@@ -1,37 +1,14 @@
-/* ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| slide 3 */
 :nth-child(3 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--logo-size: 12rem;
-
-	--body-x: 0;
 	--body-y: 25%;
-	--darker: 20%;
+	--darken: 0%;
+	--overlay: var(--grd-darken);
+	--bg-pos: left;
 
-	/* ||||| ||||| ||||| ||||| ||||| header */
-	--display-logo: none;
-	/* --display-header: none; */
-	/* --display-header-tag: none; */
-	--display-header-txt: none;
+	font-size: 3rem;
 
-	--fs-top: 1.75rem;
-	--header-txt: 0.6em;
-
-	/* ||||| ||||| ||||| ||||| ||||| body */
-	/* --display-body: none; */
-	--display-sub: block;
-	--display-sub-txt: block;
-
-	--fs-ttl: 2.75rem;
-	--fs-sub: 1.75rem;
-	--gap-ttl-sub: 0.75em;
-
-	/* ||||| ||||| ||||| ||||| ||||| footer */
-	--display-footer: none;
-	/* --display-footer-tag: none; */
-	/* --display-footer-txt: none; */
-	--display-footer-txt-sub: none;
-
-	--fs-btm: 1.25rem;
-	--fs-btm-txt: 0.9em;
+	.header {
+		font-size: 1.75rem;
+	}
 }

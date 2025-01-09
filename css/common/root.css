@@ -20,7 +20,18 @@
 	--clr-1b-s: 76%;
 	--clr-1b-l: 53%;
 	--clr-1b: var(--clr-1b-h), var(--clr-1b-s), var(--clr-1b-l);
-	--clr-1b-1a: linear-gradient(
+
+	--grd-darken: linear-gradient(
+		var(--deg, 90deg),
+		hsl(250 60% 5% / 70%) 15%,
+		hsl(250 60% 5% / 0%) 65%
+	);
+	--grd-1a-1b: linear-gradient(
+		var(--deg, 30deg),
+		hsl(var(--clr-1a)) -33%,
+		hsl(var(--clr-1b)) 133%
+	);
+	--grd-1b-1a: linear-gradient(
 		var(--deg, 30deg),
 		hsl(var(--clr-1b)) 0,
 		hsl(var(--clr-1a)) 100%
@@ -57,4 +68,49 @@
 		var(--header-top) + var(--logo-height) + var(--header-bottom)
 	);
 	--main-height: calc(100% - var(--header-height) * 2);
+}
+
+/* |||||||||| |||||||||| |||||||||| |||||||||| */
+.pattern-bg {
+	--s: 3rem; /* control the size*/
+	--c1: hsl(0, 0%, 100%);
+	--c2: hsl(198, 76%, 90%);
+	--c3: hsl(274, 62%, 90%);
+
+	--_g: 0 120deg, #0000 0;
+	background: conic-gradient(
+			from 0deg at calc(500% / 6) calc(100% / 3),
+			var(--c3) var(--_g)
+		),
+		conic-gradient(
+			from -120deg at calc(100% / 6) calc(100% / 3),
+			var(--c2) var(--_g)
+		),
+		conic-gradient(
+			from 120deg at calc(100% / 3) calc(500% / 6),
+			var(--c1) var(--_g)
+		),
+		conic-gradient(
+			from 120deg at calc(200% / 3) calc(500% / 6),
+			var(--c1) var(--_g)
+		),
+		conic-gradient(
+			from -180deg at calc(100% / 3) 50%,
+			var(--c2) 60deg,
+			var(--c1) var(--_g)
+		),
+		conic-gradient(
+			from 60deg at calc(200% / 3) 50%,
+			var(--c1) 60deg,
+			var(--c3) var(--_g)
+		),
+		conic-gradient(
+			from -60deg at 50% calc(100% / 3),
+			var(--c1) 120deg,
+			var(--c2) 0 240deg,
+			var(--c3) 0
+		);
+
+	background-size: calc(var(--s) * 1.732) var(--s);
+	background-position: center;
 }

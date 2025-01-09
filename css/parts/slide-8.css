@@ -1,38 +1,18 @@
-/* ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| slide 8 */
 :nth-child(8 of .slide) .img-maker {
 	--w: 900px;
 	--asp: 9 / 6;
-	--mod: 1.25;
+	--body-y: 20%;
+	--darken: 0%;
+	--overlay: var(--grd-darken);
+	--pos: left;
 
-	--body-x: 0%;
-	--body-y: 15%;
-	--darker: 25%;
-	--overlay: var(--gradient-2);
+	font-size: 6rem;
 
-	/* ||||| ||||| ||||| ||||| ||||| header */
-	/* --display-logo: none; */
-	/* --display-header: none; */
-	--display-header-tag: none;
-	--display-header-txt: none;
+	.header {
+		--col-1: 15rem;
+	}
 
-	--fs-top: 1.75rem;
-	--header-txt: 0.6em;
-
-	/* ||||| ||||| ||||| ||||| ||||| body */
-	/* --display-body: none; */
-	--display-sub: none;
-	--display-sub-txt: none;
-
-	--fs-ttl: 2.285rem;
-	--fs-sub: 1.33rem;
-	--gap-ttl-sub: 1em;
-
-	/* ||||| ||||| ||||| ||||| ||||| footer */
-	/* --display-footer: none; */
-	/* --display-footer-tag: none; */
-	/* --display-footer-txt: none; */
-	--display-footer-txt-sub: none;
-
-	--fs-btm: 1.5rem;
-	--fs-btm-txt: 1em;
+	.ttl-group {
+		gap: 0;
+	}
 }

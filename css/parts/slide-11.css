@@ -1,63 +1,23 @@
-/* ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| slide 11 */
 :nth-child(11 of .slide) .img-maker {
-	--logo-size: 17.33rem;
 	--w: 1280px;
 	--asp: 16 / 9;
-	--overlay: var(--gradient-2);
-	/* --w: 1600px;
-	--mod: 1.25; */
+	--body-y: 5%;
+	--darken: 0%;
+	--overlay: var(--grd-darken);
+	--pos: left;
 
-	--body-x: 0;
-	--body-y: 0%;
-	--darker: 0%;
+	font-size: 4.5rem;
 
-	/* ||||| ||||| ||||| ||||| ||||| header */
-	--display-logo: block;
-	/* --display-header: none; */
-	--display-header-tag: none;
-	--display-header-txt: none;
-
-	--fs-top: 1.75rem;
-	--header-txt: 0.6em;
-
-	/* ||||| ||||| ||||| ||||| ||||| body */
-	/* --display-body: none; */
-	/* --display-sub: none; */
-	--display-sub-txt: none;
-
-	--fs-ttl: 4rem;
-	--fs-sub: 1.85rem;
-	--gap-ttl-sub: 4rem;
-	--gap-img-ttl: 3rem;
-
-	.group {
-		row-gap: 0;
-		grid-auto-rows: 1fr;
+	.header {
+		--col-1: 17rem;
 	}
 
-	.logo {
-		grid-row: 1 / 3;
-	}
-
-	.ttl {
-		place-self: start;
-	}
-
-	.sub {
-		grid-row: 1;
-		place-self: end start;
-	}
-
-	/* ||||| ||||| ||||| ||||| ||||| footer */
-	/* --display-footer: none; */
-	/* --display-footer-tag: none; */
-	--display-footer-txt: none;
-	--display-footer-txt-sub: none;
-	--fs-btm: 2.33rem;
-
+	.header,
 	.footer {
-		column-gap: var(--gap-img-ttl);
-		grid-template-columns: var(--logo-size) auto;
-		place-items: center stretch;
+		font-size: 2.5rem;
+
+		.txt {
+			font-size: 1em;
+		}
 	}
 }

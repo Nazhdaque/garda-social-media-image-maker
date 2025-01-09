@@ -1,47 +1,19 @@
-/* ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| ||||| slide 12 */
 :nth-child(12 of .slide) .img-maker {
-	--logo-size: 17.33rem;
 	--w: 1280px;
 	--asp: 16 / 9;
-	/* --overlay: var(--gradient-2); */
-	/* --w: 1600px;
-	--mod: 1.25; */
+	--body-y: 5%;
+	--darken: 0%;
+	--overlay: var(--grd-darken);
+	--pos: left;
 
-	--body-x: 0;
-	--body-y: -5%;
-	--darker: 50%;
+	font-size: 4.5rem;
 
-	/* ||||| ||||| ||||| ||||| ||||| header */
-	--display-logo: block;
-	/* --display-header: none; */
-	--display-header-tag: none;
-	--display-header-txt: none;
-
-	--fs-top: 1.75rem;
-	--header-txt: 0.6em;
-
-	/* ||||| ||||| ||||| ||||| ||||| body */
-	/* --display-body: none; */
-	/* --display-sub: none; */
-	--display-sub-txt: none;
-
-	--fs-ttl: 2.5rem;
-	--fs-sub: 5rem;
-	--gap-ttl-sub: 0.5em;
-
-	.group {
-		text-align: center;
+	.header {
+		--col-1: 17rem;
 	}
 
-	/* ||||| ||||| ||||| ||||| ||||| footer */
-	--display-footer: none;
-	/* --display-footer-tag: none; */
-	--display-footer-txt: none;
-	--display-footer-txt-sub: none;
-
-	--fs-btm: 2.5rem;
-
-	.body {
-		place-items: center;
+	.header,
+	.footer {
+		font-size: 2.5rem;
 	}
 }

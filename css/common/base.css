@@ -33,9 +33,9 @@
 	word-break: break-word;
 }
 
-:where(h1, h2, h3, h4, h5, h6)::first-letter {
+/* :where(h1, h2, h3, h4, h5, h6)::first-letter {
 	margin-left: -0.05em;
-}
+} */
 
 *::selection {
 	background-color: hsl(var(--clr-1b), 0.25);

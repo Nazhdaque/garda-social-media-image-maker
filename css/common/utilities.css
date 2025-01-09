@@ -52,7 +52,7 @@ iframe {
 }
 
 .txt-gradient {
-	background-image: var(--clr-1b-1a);
+	background-image: var(--grd-1b-1a);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
