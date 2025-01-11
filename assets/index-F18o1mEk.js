@@ -1,4 +1,4 @@
-(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))a(s);new MutationObserver(s=>{for(const l of s)if(l.type==="childList")for(const c of l.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&a(c)}).observe(document,{childList:!0,subtree:!0});function i(s){const l={};return s.integrity&&(l.integrity=s.integrity),s.referrerPolicy&&(l.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?l.credentials="include":s.crossOrigin==="anonymous"?l.credentials="omit":l.credentials="same-origin",l}function a(s){if(s.ep)return;s.ep=!0;const l=i(s);fetch(s.href,l)}})();const p=`<article class="slide layout-center z-up"
+(function(){const l=document.createElement("link").relList;if(l&&l.supports&&l.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))a(n);new MutationObserver(n=>{for(const e of n)if(e.type==="childList")for(const o of e.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&a(o)}).observe(document,{childList:!0,subtree:!0});function i(n){const e={};return n.integrity&&(e.integrity=n.integrity),n.referrerPolicy&&(e.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?e.credentials="include":n.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function a(n){if(n.ep)return;n.ep=!0;const e=i(n);fetch(n.href,e)}})();const p=`<article class="slide layout-center z-up"
 				 id="slide-1">
 	<div class="slide-number"></div>
 
@@ -145,6 +145,173 @@
 		<div class="header">
 			<!-- <img src="./images/logos/logo-w.svg"
 					 class="logo"> -->
+			<p class="tag">Статья</p>
+			<!-- <p class="txt">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Lorem ipsum dolor</h1>
+				<p class="sub txt-gradient">Lorem ipsum dolor sit <br>amet consectetur</p>
+				<p class="txt">Станислав Грибанов,<br> руководитель продукта «Гарда NDR»</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<!-- <p class="tag">Видео</p> -->
+			<img src="./images/logos/logo-w.svg"
+					 class="logo">
+			<!-- <p class="txt">Станислав Грибанов,<br> руководитель продукта «Гарда NDR»</p> -->
+		</div>
+
+		<img class="o-fit-contain photo"
+				 src="./images/person.jpg"
+				 alt="person photo">
+		<img class="o-fit-cover bg-img"
+				 src="./images/article-tg.svg"
+				 alt="background-image">
+	</div>
+</article>`,f=`<article class="slide layout-center z-up"
+				 id="slide-6">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header">
+			<!-- <img src="./images/logos/logo-w.svg"
+					 class="logo"> -->
+			<p class="tag">Статья</p>
+			<!-- <p class="txt">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Lorem ipsum dolor</h1>
+				<p class="sub txt-gradient">Lorem ipsum dolor sit <br>amet consectetur</p>
+				<p class="txt">Станислав Грибанов,<br> руководитель продукта «Гарда NDR»</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-w.svg"
+					 class="logo"> -->
+			<!-- <p class="txt">Станислав Грибанов,<br> руководитель продукта «Гарда NDR»</p> -->
+		</div>
+
+		<img class="o-fit-contain photo"
+				 src="./images/person.jpg"
+				 alt="person photo">
+		<img class="o-fit-cover bg-img"
+				 src="./images/article-tg.svg"
+				 alt="background-image">
+	</div>
+</article>`,w=`<article class="slide layout-center z-up"
+				 id="slide-7">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header">
+			<!-- <img src="./images/logos/logo-w.svg"
+					 class="logo"> -->
+			<p class="tag">Статья</p>
+			<!-- <p class="txt ">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Lorem ipsum dolor</h1>
+				<p class="sub">Lorem ipsum dolor sit <br>amet consectetur</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<!-- <p class="tag">Видео</p> -->
+			<p class="txt">Станислав Грибанов,<br> руководитель продукта «Гарда NDR»</p>
+		</div>
+
+		<!-- <img class="o-fit-cover"
+				 src="./images/.webp"
+				 alt="background-image"> -->
+	</div>
+</article>`,x=`<article class="slide layout-center z-up"
+				 id="slide-8">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header">
+			<!-- <img src="./images/logos/logo-w.svg"
+					 class="logo"> -->
+			<p class="tag">Статья</p>
+			<!-- <p class="txt ">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Lorem ipsum dolor</h1>
+				<p class="sub">Lorem ipsum dolor sit <br>amet consectetur</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<!-- <p class="tag">Видео</p> -->
+			<p class="txt">Станислав Грибанов,<br> руководитель продукта «Гарда NDR»</p>
+		</div>
+
+		<!-- <img class="o-fit-cover"
+				 src="./images/.webp"
+				 alt="background-image"> -->
+	</div>
+</article>`,h=`<article class="slide layout-center z-up"
+				 id="slide-9">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header">
+			<!-- <img src="./images/logos/logo-w.svg"
+					 class="logo"> -->
+			<p class="tag">Статья</p>
+			<!-- <p class="txt ">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Lorem ipsum dolor</h1>
+				<p class="sub">Lorem ipsum dolor sit <br>amet consectetur</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<!-- <p class="tag">Видео</p> -->
+			<p class="txt">Станислав Грибанов,<br> руководитель продукта «Гарда NDR»</p>
+		</div>
+
+		<!-- <img class="o-fit-cover"
+				 src="./images/.webp"
+				 alt="background-image"> -->
+	</div>
+</article>`,y=`<article class="slide layout-center z-up"
+				 id="slide-10">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header">
+			<!-- <img src="./images/logos/logo-w.svg"
+					 class="logo"> -->
 			<p class="tag">Конференция</p>
 			<p class="txt">Москва, ул. Вильгельма Пика, д.16, конгресс-центр Solux</p>
 			<p class="txt">24 октября 2025 года</p>
@@ -164,162 +331,6 @@
 		<div class="footer">
 			<!-- <p class="tag">Видео</p> -->
 			<p class="txt">24 октября, Москва, <br>ул. Вильгельма Пика, д.16, <br>конгресс-центр Solux</p>
-		</div>
-
-		<!-- <img class="o-fit-cover"
-				 src="./images/.webp"
-				 alt="background-image"> -->
-	</div>
-</article>`,f=`<article class="slide layout-center z-up"
-				 id="slide-6">
-	<div class="slide-number"></div>
-
-	<div class="img-box img-maker">
-		<div class="header ">
-			<img src="./images/logos/logo-w.svg"
-					 class="logo">
-			<!-- <p class="tag">Вебинар</p>
-			<p class="txt ">10 декабря в 11:00</p> -->
-		</div>
-
-		<div class="body">
-			<!-- <p class="tag">Видео</p> -->
-			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
-					 class="logo"> -->
-			<div class="ttl-group">
-				<h1 class="ttl fw-eb">Lorem ipsum <br>dolor sit amet</h1>
-				<p class="sub">Lorem ipsum dolor sit <br>amet consectetur</p>
-			</div>
-		</div>
-
-		<div class="footer">
-			<p class="tag">Вебинар</p>
-			<p class="txt">3 февраля в 11:00</p>
-		</div>
-
-		<!-- <img class="o-fit-cover"
-				 src="./images/.webp"
-				 alt="background-image"> -->
-	</div>
-</article>`,w=`<article class="slide layout-center z-up"
-				 id="slide-7">
-	<div class="slide-number"></div>
-
-	<div class="img-box img-maker">
-		<div class="header ">
-			<img src="./images/logos/logo-w.svg"
-					 class="logo">
-			<!-- <p class="tag">Вебинар</p>
-			<p class="txt ">10 декабря в 11:00</p> -->
-		</div>
-
-		<div class="body">
-			<!-- <p class="tag">Видео</p> -->
-			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
-					 class="logo"> -->
-			<div class="ttl-group">
-				<h1 class="ttl fw-eb">Lorem ipsum <br>dolor sit amet</h1>
-				<p class="sub">Lorem ipsum dolor sit <br>amet consectetur</p>
-			</div>
-		</div>
-
-		<div class="footer">
-			<p class="tag">Видео</p>
-			<p class="txt">Вебинар группы компаний «Гарда» <br>3 февраля 2025</p>
-		</div>
-
-		<!-- <img class="o-fit-cover"
-				 src="./images/.webp"
-				 alt="background-image"> -->
-	</div>
-</article>`,h=`<article class="slide layout-center z-up"
-				 id="slide-8">
-	<div class="slide-number"></div>
-
-	<div class="img-box img-maker">
-		<div class="header ">
-			<img src="./images/logos/logo-w.svg"
-					 class="logo">
-			<!-- <p class="tag">Вебинар</p>
-			<p class="txt ">10 декабря в 11:00</p> -->
-		</div>
-
-		<div class="body">
-			<!-- <p class="tag">Видео</p> -->
-			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
-					 class="logo"> -->
-			<div class="ttl-group">
-				<h1 class="ttl fw-eb">Дайджест</h1>
-				<p class="sub">1 — 28 февраля</p>
-			</div>
-		</div>
-
-		<!-- <div class="footer">
-			<p class="tag">Дайджест</p>
-			<p class="txt">Группа компаний «Гарда» <br>1 — 30 ноября 2025</p>
-		</div> -->
-
-		<!-- <img class="o-fit-cover"
-				 src="./images/.webp"
-				 alt="background-image"> -->
-	</div>
-</article>`,x=`<article class="slide layout-center z-up"
-				 id="slide-9">
-	<div class="slide-number"></div>
-
-	<div class="img-box img-maker">
-		<div class="header">
-			<img src="./images/logos/logo-w.svg"
-					 class="logo">
-			<!-- <p class="tag">Конференция</p> -->
-			<!-- <p class="txt">Москва, ул. Вильгельма Пика, д.16, конгресс-центр Solux</p>
-			<p class="txt">24 октября 2025 года</p> -->
-		</div>
-
-		<div class="body">
-			<!-- <p class="tag">Видео</p> -->
-			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
-					 class="logo"> -->
-			<div class="ttl-group">
-				<h1 class="ttl fw-eb caps">Кибер</h1>
-				<p class="sub">инциденты <br>угрозы</p>
-			</div>
-		</div>
-
-		<div class="footer">
-			<p class="tag">Дайджест</p>
-			<p class="txt">1 — 28 февраля</p>
-		</div>
-
-		<!-- <img class="o-fit-cover"
-				 src="./images/.webp"
-				 alt="background-image"> -->
-	</div>
-</article>`,y=`<article class="slide layout-center z-up"
-				 id="slide-10">
-	<div class="slide-number"></div>
-
-	<div class="img-box img-maker">
-		<div class="header ">
-			<img src="./images/logos/logo-w.svg"
-					 class="logo">
-			<!-- <p class="tag">Вебинар</p>
-			<p class="txt ">10 декабря в 11:00</p> -->
-		</div>
-
-		<div class="body">
-			<!-- <p class="tag">Видео</p> -->
-			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
-					 class="logo"> -->
-			<div class="ttl-group">
-				<h1 class="ttl fw-eb">Lorem ipsum <br>dolor sit amet</h1>
-				<p class="sub">Lorem ipsum dolor sit <br>amet consectetur</p>
-			</div>
-		</div>
-
-		<div class="footer">
-			<p class="tag">Видео</p>
-			<p class="txt">Вебинар группы компаний «Гарда» <br>3 февраля 2025</p>
 		</div>
 
 		<!-- <img class="o-fit-cover"
@@ -396,6 +407,162 @@
 		<div class="header ">
 			<img src="./images/logos/logo-w.svg"
 					 class="logo">
+			<!-- <p class="tag">Вебинар</p>
+			<p class="txt ">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Дайджест</h1>
+				<p class="sub">1 — 28 февраля</p>
+			</div>
+		</div>
+
+		<!-- <div class="footer">
+			<p class="tag">Дайджест</p>
+			<p class="txt">Группа компаний «Гарда» <br>1 — 30 ноября 2025</p>
+		</div> -->
+
+		<!-- <img class="o-fit-cover"
+				 src="./images/.webp"
+				 alt="background-image"> -->
+	</div>
+</article>`,T=`<article class="slide layout-center z-up"
+				 id="slide-14">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header">
+			<img src="./images/logos/logo-w.svg"
+					 class="logo">
+			<!-- <p class="tag">Конференция</p> -->
+			<!-- <p class="txt">Москва, ул. Вильгельма Пика, д.16, конгресс-центр Solux</p>
+			<p class="txt">24 октября 2025 года</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb caps">Кибер</h1>
+				<p class="sub">инциденты <br>угрозы</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p class="tag">Дайджест</p>
+			<p class="txt">1 — 28 февраля</p>
+		</div>
+
+		<!-- <img class="o-fit-cover"
+				 src="./images/.webp"
+				 alt="background-image"> -->
+	</div>
+</article>`,_=`<article class="slide layout-center z-up"
+				 id="slide-15">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header ">
+			<img src="./images/logos/logo-w.svg"
+					 class="logo">
+			<!-- <p class="tag">Вебинар</p>
+			<p class="txt ">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Lorem ipsum <br>dolor sit amet</h1>
+				<p class="sub">Lorem ipsum dolor sit <br>amet consectetur</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p class="tag">Видео</p>
+			<p class="txt">Вебинар группы компаний «Гарда» <br>3 февраля 2025</p>
+		</div>
+
+		<!-- <img class="o-fit-cover"
+				 src="./images/.webp"
+				 alt="background-image"> -->
+	</div>
+</article>`,j=`<article class="slide layout-center z-up"
+				 id="slide-16">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header ">
+			<img src="./images/logos/logo-w.svg"
+					 class="logo">
+			<!-- <p class="tag">Вебинар</p>
+			<p class="txt ">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Lorem ipsum <br>dolor sit amet</h1>
+				<p class="sub">Lorem ipsum dolor sit <br>amet consectetur</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p class="tag">Вебинар</p>
+			<p class="txt">3 февраля в 11:00</p>
+		</div>
+
+		<!-- <img class="o-fit-cover"
+				 src="./images/.webp"
+				 alt="background-image"> -->
+	</div>
+</article>`,M=`<article class="slide layout-center z-up"
+				 id="slide-17">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header ">
+			<img src="./images/logos/logo-w.svg"
+					 class="logo">
+			<!-- <p class="tag">Вебинар</p>
+			<p class="txt ">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Lorem ipsum <br>dolor sit amet</h1>
+				<p class="sub">Lorem ipsum dolor sit <br>amet consectetur</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p class="tag">Видео</p>
+			<p class="txt">Вебинар группы компаний «Гарда» <br>3 февраля 2025</p>
+		</div>
+
+		<!-- <img class="o-fit-cover"
+				 src="./images/.webp"
+				 alt="background-image"> -->
+	</div>
+</article>`,z=`<article class="slide layout-center z-up"
+				 id="slide-18">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header ">
+			<img src="./images/logos/logo-w.svg"
+					 class="logo">
 			<!-- <p class="tag fw-eb">Вебинар</p>
 			<p class="txt ">10 декабря в 11:00</p> -->
 		</div>
@@ -419,8 +586,8 @@
 				 src="./images/.webp"
 				 alt="background-image"> -->
 	</div>
-</article>`,T=`<article class="slide layout-center z-up"
-				 id="slide-14">
+</article>`,H=`<article class="slide layout-center z-up"
+				 id="slide-19">
 	<div class="slide-number"></div>
 
 	<div class="img-box img-maker">
@@ -450,8 +617,8 @@
 				 src="./images/.webp"
 				 alt="background-image"> -->
 	</div>
-</article>`,_=`<article class="slide layout-center z-up"
-				 id="slide-15">
+</article>`,S=`<article class="slide layout-center z-up"
+				 id="slide-20">
 	<div class="slide-number"></div>
 
 	<div class="img-box img-maker">
@@ -481,8 +648,8 @@
 				 src="./images/.webp"
 				 alt="background-image"> -->
 	</div>
-</article>`,M=`<article class="slide layout-center z-up"
-				 id="slide-16">
+</article>`,N=`<article class="slide layout-center z-up"
+				 id="slide-21">
 	<div class="slide-number"></div>
 
 	<div class="img-box img-maker">
@@ -512,8 +679,8 @@
 				 src="./images/.webp"
 				 alt="background-image"> -->
 	</div>
-</article>`,j=`<article class="slide layout-center z-up"
-				 id="slide-17">
+</article>`,E=`<article class="slide layout-center z-up"
+				 id="slide-22">
 	<div class="slide-number"></div>
 
 	<div class="img-box img-maker">
@@ -544,8 +711,45 @@
 				 src="./images/.webp"
 				 alt="background-image"> -->
 	</div>
-</article>`,z=`<article class="slide layout-center z-up"
-				 id="slide-18">
+</article>`,R=`<article class="slide layout-center z-up"
+				 id="slide-23">
+	<div class="slide-number"></div>
+
+	<div class="img-box img-maker">
+		<div class="header">
+			<!-- <img src="./images/logos/logo-w.svg"
+					 class="logo"> -->
+			<p class="tag">Статья</p>
+			<!-- <p class="txt">10 декабря в 11:00</p> -->
+		</div>
+
+		<div class="body">
+			<!-- <p class="tag">Видео</p> -->
+			<!-- <img src="./images/logos/logo-x-w-ndr.svg"
+					 class="logo"> -->
+			<div class="ttl-group">
+				<h1 class="ttl fw-eb">Lorem ipsum dolor</h1>
+				<p class="sub txt-gradient">Lorem ipsum dolor sit <br>amet consectetur</p>
+				<p class="txt">Станислав Грибанов,<br> руководитель продукта «Гарда NDR»</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<!-- <p class="tag">Видео</p> -->
+			<img src="./images/logos/logo-w.svg"
+					 class="logo">
+			<!-- <p class="txt">Станислав Грибанов,<br> руководитель продукта «Гарда NDR»</p> -->
+		</div>
+
+		<img class="o-fit-contain photo"
+				 src="./images/person.jpg"
+				 alt="person photo">
+		<img class="o-fit-cover bg-img"
+				 src="./images/article-fhd.svg"
+				 alt="background-image">
+	</div>
+</article>`,D=`<article class="slide layout-center z-up"
+				 id="slide-24">
 	<div class="slide-number"></div>
 
 	<div class="img-box img-maker video">
@@ -556,8 +760,8 @@
 						allowfullscreen="1"
 						allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
 	</div>
-</article>`,n=document.querySelector(".main-content");n.insertAdjacentHTML("beforeend",p);n.insertAdjacentHTML("beforeend",m);n.insertAdjacentHTML("beforeend",v);n.insertAdjacentHTML("beforeend",b);n.insertAdjacentHTML("beforeend",u);n.insertAdjacentHTML("beforeend",f);n.insertAdjacentHTML("beforeend",w);n.insertAdjacentHTML("beforeend",h);n.insertAdjacentHTML("beforeend",x);n.insertAdjacentHTML("beforeend",y);n.insertAdjacentHTML("beforeend",L);n.insertAdjacentHTML("beforeend",k);n.insertAdjacentHTML("beforeend",A);n.insertAdjacentHTML("beforeend",T);n.insertAdjacentHTML("beforeend",_);n.insertAdjacentHTML("beforeend",M);n.insertAdjacentHTML("beforeend",j);n.insertAdjacentHTML("beforeend",z);const d=document.querySelectorAll(".slide"),H=document.querySelector(".slide-list");d.forEach((t,e)=>{H.insertAdjacentHTML("beforeend",`<li>
-			<a href="#slide-${e+1}">
-				<span class="sr-only">slide ${e+1}</span>
+</article>`,t=document.querySelector(".main-content");t.insertAdjacentHTML("beforeend",p);t.insertAdjacentHTML("beforeend",m);t.insertAdjacentHTML("beforeend",v);t.insertAdjacentHTML("beforeend",b);t.insertAdjacentHTML("beforeend",u);t.insertAdjacentHTML("beforeend",f);t.insertAdjacentHTML("beforeend",w);t.insertAdjacentHTML("beforeend",x);t.insertAdjacentHTML("beforeend",h);t.insertAdjacentHTML("beforeend",y);t.insertAdjacentHTML("beforeend",L);t.insertAdjacentHTML("beforeend",k);t.insertAdjacentHTML("beforeend",A);t.insertAdjacentHTML("beforeend",T);t.insertAdjacentHTML("beforeend",_);t.insertAdjacentHTML("beforeend",j);t.insertAdjacentHTML("beforeend",M);t.insertAdjacentHTML("beforeend",z);t.insertAdjacentHTML("beforeend",H);t.insertAdjacentHTML("beforeend",S);t.insertAdjacentHTML("beforeend",N);t.insertAdjacentHTML("beforeend",E);t.insertAdjacentHTML("beforeend",R);t.insertAdjacentHTML("beforeend",D);const d=document.querySelectorAll(".slide"),q=document.querySelector(".slide-list");d.forEach((s,l)=>{q.insertAdjacentHTML("beforeend",`<li>
+			<a href="#slide-${l+1}">
+				<span class="sr-only">slide ${l+1}</span>
 			</a>
-		</li>`)});const o=document.querySelectorAll(".slide-list > *"),g=t=>{const e=t.currentTarget.querySelector(".slide-number");e&&(e.style.top=`${e.getBoundingClientRect().height/-4}px`);const i=document.querySelector(".slide-list > *.active");i&&i.classList.remove("active"),d.forEach((a,s)=>{a===t.currentTarget&&o[s].querySelector("a").click()&o[s].classList.add("active")})};d.forEach(t=>t.addEventListener("mouseenter",g));o.forEach(t=>t.addEventListener("click",g));const S=(t,e="white")=>{let i="";return e!=="black"?i=t.replace("-w.","-b."):i=t.replace("-b.","-w."),i},E=t=>{document.querySelectorAll(".brand-logo img").forEach(e=>e.setAttribute("src",S(e.src,t)))},q=()=>document.documentElement.getAttribute("data-theme"),r=t=>{document.documentElement.setAttribute("data-theme",t),E(t)},N=t=>r(t!=="black"?"black":"white");document.querySelectorAll(".toggle").forEach(t=>t.addEventListener("click",()=>N(q())));
+		</li>`)});const c=document.querySelectorAll(".slide-list > *"),g=s=>{const l=s.currentTarget.querySelector(".slide-number");l&&(l.style.top=`${l.getBoundingClientRect().height/-4}px`);const i=document.querySelector(".slide-list > *.active");i&&i.classList.remove("active"),d.forEach((a,n)=>{a===s.currentTarget&&c[n].querySelector("a").click()&c[n].classList.add("active")})};d.forEach(s=>s.addEventListener("mouseenter",g));c.forEach(s=>s.addEventListener("click",g));const O=(s,l="white")=>{let i="";return l!=="black"?i=s.replace("-w.","-b."):i=s.replace("-b.","-w."),i},P=s=>{document.querySelectorAll(".brand-logo img").forEach(l=>l.setAttribute("src",O(l.src,s)))},$=()=>document.documentElement.getAttribute("data-theme"),r=s=>{document.documentElement.setAttribute("data-theme",s),P(s)},I=s=>r(s!=="black"?"black":"white");document.querySelectorAll(".toggle").forEach(s=>s.addEventListener("click",()=>I($())));
