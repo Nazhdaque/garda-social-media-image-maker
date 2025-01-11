@@ -1,19 +1,19 @@
-:nth-child(5 of .slide) .img-maker {
-	--w: 700px;
-	--asp: 7 / 5;
+:nth-child(23 of .slide) .img-maker {
+	--w: 1280px;
+	--asp: 16 / 9;
 	--body-y: -7%;
 	--darken: 0%;
 	--overlay: var(--grd-darken);
 
-	font-size: 2.5rem;
+	font-size: 4.5rem;
 
 	.header,
 	.footer {
-		font-size: 1.75rem;
+		font-size: 2.5rem;
 	}
 
 	.footer {
-		--col-1: 12rem;
+		--col-1: 20rem;
 	}
 
 	.ttl-group {
@@ -25,10 +25,10 @@
 	}
 
 	.txt {
-		font-size: 1rem;
+		font-size: 0.33em;
 	}
 
 	.photo {
-		--pos: 15rem 3.25rem;
+		--pos: 260% 5rem;
 	}
 }

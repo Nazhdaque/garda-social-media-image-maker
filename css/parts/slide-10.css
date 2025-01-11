@@ -1,19 +1,39 @@
 :nth-child(10 of .slide) .img-maker {
-	--w: 900px;
-	--asp: 9 / 6;
-	--body-y: 5%;
+	--w: 700px;
+	--asp: 7 / 5;
+	--body-y: 10%;
 	--darken: 0%;
 	--overlay: var(--grd-darken);
-	--pos: left;
+	--bg-pos: left;
 
-	font-size: 4rem;
-
-	.header {
-		--col-1: 15rem;
-	}
+	font-size: 3rem;
 
 	.header,
 	.footer {
-		font-size: 2rem;
+		font-size: 1.75rem;
+	}
+
+	.header {
+		--gap: 0.75rem 1.25rem;
+
+		:last-child {
+			text-align: center;
+		}
+	}
+
+	.ttl-group {
+		grid-template-columns: repeat(2, auto);
+		gap: 0 1rem;
+
+		.sub {
+			font-size: 0.5625em;
+			transform: translateY(-19%);
+		}
+
+		.txt {
+			grid-row: span 2;
+			font-size: 2em;
+			line-height: 1;
+		}
 	}
 }

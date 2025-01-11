@@ -36,6 +36,15 @@
 	counter-increment: slide-counter;
 	transition: transform var(--time);
 }
+.slide-list :nth-child(n + 11):nth-child(-n + 15) {
+	--clr-item: hsl(var(--clr-2d));
+}
+.slide-list :nth-child(n + 16):nth-child(-n + 23) {
+	--clr-item: hsl(var(--clr-2g));
+}
+.slide-list :last-child {
+	--clr-item: hsl(var(--clr-2i));
+}
 
 .slide-list > *::before {
 	position: absolute;
@@ -59,7 +68,7 @@
 	transform: translateX(var(--overflow));
 }
 .slide-list > *.active {
-	--clr-item: hsl(var(--clr-1a));
+	--clr-item: hsl(var(--clr-1a)) !important;
 }
 
 .slide-list a {

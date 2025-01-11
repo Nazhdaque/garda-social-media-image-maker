@@ -32,8 +32,13 @@
 @import url(./parts/slide-16.css) layer(parts);
 @import url(./parts/slide-17.css) layer(parts);
 @import url(./parts/slide-18.css) layer(parts);
-/* @import url(./parts/slide-19.css) layer(parts); */
-/* @import url(./parts/slide-20.css) layer(parts); */
+@import url(./parts/slide-19.css) layer(parts);
+@import url(./parts/slide-20.css) layer(parts);
+@import url(./parts/slide-21.css) layer(parts);
+@import url(./parts/slide-22.css) layer(parts);
+@import url(./parts/slide-23.css) layer(parts);
+@import url(./parts/slide-24.css) layer(parts);
+/* @import url(./parts/slide-25.css) layer(parts); */
 
 @import url(./common/utilities.css) layer(utilities);
 @import url(./common/media.css) layer(media);
