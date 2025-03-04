@@ -1,11 +1,11 @@
 :nth-child(6 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--body-y: -7%;
+	--body-y: 3%;
 	--darken: 0%;
-	/* --overlay: var(--grd-darken); */
+	--overlay: var(--grd-darken);
 
-	font-size: 2.5rem;
+	font-size: 2rem;
 
 	.header,
 	.footer {
@@ -26,9 +26,17 @@
 
 	.txt {
 		font-size: 1rem;
+		position: relative;
+		top: 0.66rem;
 	}
 
 	.photo {
-		--pos: 15rem 3.25rem;
+		--pos: 4rem;
+
+		scale: 1.1;
+	}
+
+	[alt="background-image"] {
+		scale: 1.05;
 	}
 }

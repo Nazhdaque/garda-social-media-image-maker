@@ -2,10 +2,10 @@
 	--w: 1280px;
 	--asp: 16 / 9;
 	--body-y: 0%;
-	--darken: 0%;
+	--darken: 50%;
 	--overlay: var(--grd-darken);
 	--pos: left;
-	--col-1: 18.25rem;
+	--col-1: 17.33rem;
 	--gap: 3rem;
 
 	font-size: 4rem;
@@ -13,14 +13,14 @@
 	.header,
 	.footer {
 		font-size: 2.5rem;
-
-		.txt {
-			font-size: 1em;
-		}
 	}
 
 	.ttl-group {
 		gap: 0;
-		margin-top: 15%;
+		/* margin-top: 15%; */
+	}
+
+	.sub {
+		font-size: 0.66em;
 	}
 }

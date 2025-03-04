@@ -17,14 +17,12 @@
 	width: var(--img-w, var(--img-size));
 	height: var(--img-h, var(--img-size));
 	aspect-ratio: var(--asp, auto);
-	border-radius: var(--radius, initial);
 }
 .img-box > img,
 .img-box > picture,
 .img-box > iframe {
 	position: absolute;
 	inset: 0;
-	border-radius: var(--radius, initial);
 }
 
 .o-fit-cover {
@@ -57,4 +55,10 @@ iframe {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	border-radius: var(--radius, none);
+}
+
+.flipX {
+	--flipX: scaleX(calc(var(--scale, 1) * -1)) scaleY(var(--scale, 1));
+
+	transform: var(--flipX);
 }

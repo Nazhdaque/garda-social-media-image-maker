@@ -26,9 +26,14 @@
 
 	.txt {
 		font-size: 1rem;
+		margin-top: 1rem;
 	}
 
 	.photo {
-		--pos: 15rem 3.25rem;
+		--pos: 16rem 2.7rem;
+	}
+
+	[alt="background-image"] {
+		scale: 1.05;
 	}
 }

@@ -26,6 +26,12 @@
 		hsl(250 60% 5% / 70%) 15%,
 		hsl(250 60% 5% / 0%) 65%
 	);
+	--grd-darken2: linear-gradient(
+		var(--deg, 90deg),
+		hsl(250 60% 5% / 90%) 10%,
+		hsl(250 60% 5% / 0%) 90%
+	);
+
 	--grd-1a-1b: linear-gradient(
 		var(--deg, 30deg),
 		hsl(var(--clr-1a)) -33%,

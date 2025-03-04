@@ -1,12 +1,12 @@
 :nth-child(2 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--body-y: 10%;
+	--body-y: 13%;
 	--darken: 0%;
 	--overlay: var(--grd-darken);
 	--bg-pos: left;
 
-	font-size: 2.75rem;
+	font-size: 3rem;
 
 	.header,
 	.footer {
@@ -16,6 +16,18 @@
 	.header {
 		--gap: 0.75rem;
 		--gtc: auto;
+
+		.txt {
+			font-size: 0.7em;
+		}
+	}
+
+	.ttl-group {
+		gap: 1.25rem;
+	}
+
+	.sub {
+		font-size: 0.615em;
 	}
 
 	.header .tag + .txt {

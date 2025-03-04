@@ -1,0 +1,51 @@
+:nth-child(26 of .slide) .img-maker {
+	--w: 700px;
+	--asp: 7 / 5;
+	--body-y: -6%;
+	--darken: 0%;
+	--overlay: var(--grd-darken);
+
+	border-radius: 2.5rem;
+	overflow: hidden;
+
+	font-size: 2rem;
+
+	.header,
+	.footer {
+		font-size: 1.75rem;
+	}
+
+	.header {
+		--gtc: 5rem 12rem;
+	}
+
+	.footer {
+		--col-1: 12rem;
+	}
+
+	.ttl-group {
+		gap: 3.5rem;
+	}
+
+	.sub {
+		font-size: 0.675em;
+	}
+
+	.txt {
+		font-size: 1.25rem;
+		line-height: 1;
+
+		span {
+			font-size: 0.75em;
+		}
+	}
+
+	.photo {
+		--pos: 3.25rem 6.66rem;
+		--scale: 1.7;
+	}
+
+	[alt="background-image"] {
+		scale: 1.05;
+	}
+}

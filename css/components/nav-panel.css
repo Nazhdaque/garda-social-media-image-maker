@@ -36,14 +36,18 @@
 	counter-increment: slide-counter;
 	transition: transform var(--time);
 }
+.slide-list :nth-child(n + 5):nth-child(-n + 8),
+.slide-list :nth-child(n + 25) {
+	--clr-item: hsl(var(--clr-2i));
+}
 .slide-list :nth-child(n + 11):nth-child(-n + 15) {
 	--clr-item: hsl(var(--clr-2d));
 }
 .slide-list :nth-child(n + 16):nth-child(-n + 23) {
 	--clr-item: hsl(var(--clr-2g));
 }
-.slide-list :last-child {
-	--clr-item: hsl(var(--clr-2i));
+.slide-list :nth-child(24) {
+	--clr-item: hsl(var(--clr-2h));
 }
 
 .slide-list > *::before {

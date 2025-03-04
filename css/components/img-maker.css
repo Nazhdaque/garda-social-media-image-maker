@@ -16,6 +16,7 @@
 	background-size: 100%;
 	background-position: center;
 	background-color: hsl(var(--clr-0b));
+	overflow: hidden;
 
 	&::before {
 		position: absolute;
@@ -73,6 +74,18 @@
 .txt {
 	font-size: 0.66em;
 	line-height: 1.33;
+}
+
+.border {
+	border: 0.125em solid var(--clr-solid);
+	border-radius: 0.5em;
+
+	.txt {
+		padding: 0 var(--gap) var(--gap) var(--gap);
+	}
+	.tag {
+		border-radius: 0.25em 0.25em 0.5em 0.5em;
+	}
 }
 
 /* ||||| ||||| ||||| ||||| ||||| video */

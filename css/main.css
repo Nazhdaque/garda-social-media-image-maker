@@ -38,7 +38,10 @@
 @import url(./parts/slide-22.css) layer(parts);
 @import url(./parts/slide-23.css) layer(parts);
 @import url(./parts/slide-24.css) layer(parts);
-/* @import url(./parts/slide-25.css) layer(parts); */
+@import url(./parts/slide-25.css) layer(parts);
+@import url(./parts/slide-26.css) layer(parts);
+@import url(./parts/slide-27.css) layer(parts);
+@import url(./parts/slide-28.css) layer(parts);
 
 @import url(./common/utilities.css) layer(utilities);
 @import url(./common/media.css) layer(media);

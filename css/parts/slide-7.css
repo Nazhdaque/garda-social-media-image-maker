@@ -1,23 +1,39 @@
 :nth-child(7 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--body-y: 15%;
+	--body-y: -7%;
 	--darken: 0%;
 	--overlay: var(--grd-darken);
-	--pos: left;
 
-	font-size: 2.75rem;
+	font-size: 2.5rem;
 
 	.header,
 	.footer {
 		font-size: 1.75rem;
 	}
 
+	.footer {
+		--col-1: 12rem;
+	}
+
+	.ttl-group {
+		gap: 1rem;
+	}
+
 	.sub {
 		font-size: 0.675em;
 	}
 
-	.ttl-group {
-		--gap: 0.5rem;
+	.txt {
+		font-size: 1rem;
+		margin-top: 1rem;
+	}
+
+	.photo {
+		--pos: 15.5rem 2.66rem;
+	}
+
+	[alt="background-image"] {
+		scale: 1.05;
 	}
 }
