@@ -1,9 +1,9 @@
 :nth-child(3 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--body-y: 25%;
+	--body-y: 33%;
 	--darken: 0%;
-	--overlay: var(--grd-darken);
+	--overlay: var(--grd-darken3);
 	--bg-pos: left;
 
 	font-size: 3rem;

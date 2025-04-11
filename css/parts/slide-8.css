@@ -1,11 +1,11 @@
 :nth-child(8 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--body-y: -5%;
+	--body-y: 0%;
 	--darken: 0%;
 	--overlay: var(--grd-darken);
 
-	font-size: 2.6rem;
+	font-size: 1.6rem;
 
 	.header,
 	.footer {
@@ -16,8 +16,9 @@
 		--col-1: 12rem;
 	}
 
-	.ttl-group {
-		gap: 1rem;
+	.ttl {
+		position: relative;
+		top: 30%;
 	}
 
 	.sub {
@@ -27,7 +28,7 @@
 	.txt {
 		font-size: 1rem;
 		position: relative;
-		top: 40%;
+		top: 45%;
 	}
 
 	.photo {

@@ -1,0 +1,32 @@
+:nth-child(30 of .slide) .img-maker {
+	--w: 700px;
+	--asp: 7 / 5;
+	--body-y: 10%;
+	--darken: 10%;
+	--overlay: var(--grd-darken);
+	--bg-pos: left;
+
+	font-size: 3.15rem;
+
+	.header,
+	.footer {
+		font-size: 1.75rem;
+	}
+
+	.header {
+		--gap: 0.75rem;
+		--gtc: auto;
+
+		.txt {
+			font-size: 0.7em;
+		}
+	}
+
+	.ttl-group {
+		gap: 1rem;
+	}
+
+	.sub {
+		font-size: 0.66em;
+	}
+}

@@ -3,14 +3,18 @@
 	--asp: 9 / 6;
 	--body-y: 10%;
 	--darken: 0%;
-	--overlay: var(--grd-darken);
+	--overlay: var(--grd-darken2);
 	--pos: left;
 
-	font-size: 3.5rem;
+	font-size: 3rem;
 	border-radius: 2.5rem;
 
 	.header {
-		--col-1: 15rem;
+		/* --col-1: 15rem; */
+		--gap: 1rem;
+		/* --gtc: auto; */
+		/* --gtc: 5rem 12rem; */
+		--gtc: 9rem;
 	}
 
 	.header,
@@ -19,6 +23,6 @@
 	}
 
 	.sub {
-		font-size: 0.6em;
+		font-size: 0.66em;
 	}
 }

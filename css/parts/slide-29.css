@@ -1,11 +1,11 @@
-:nth-child(7 of .slide) .img-maker {
+:nth-child(29 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--body-y: 10%;
+	--body-y: -0%;
 	--darken: 0%;
 	--overlay: var(--grd-darken);
 
-	border-radius: 2.5rem;
+	/* border-radius: 2.5rem; */
 	overflow: hidden;
 
 	font-size: 2rem;
@@ -21,7 +21,7 @@
 		/* --gtc: auto 6rem; */
 
 		.txt {
-			font-size: 0.85em;
+			font-size: 0.75em;
 		}
 	}
 
@@ -31,14 +31,6 @@
 
 	.ttl-group {
 		gap: 1rem;
-
-		.ttl {
-			top: -0.85rem;
-		}
-
-		.txt {
-			top: 0rem;
-		}
 	}
 
 	.sub {
@@ -48,10 +40,13 @@
 	.txt {
 		font-size: 1.25rem;
 		line-height: 1;
+		position: relative;
+		/* top: 2rem; */
 	}
 
 	.photo {
-		--pos: 15.5rem 2.66rem;
+		--pos: -6.75rem 4rem;
+		--scale: 1.2;
 	}
 
 	[alt="background-image"] {

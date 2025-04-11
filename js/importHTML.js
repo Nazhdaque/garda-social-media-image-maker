@@ -26,6 +26,8 @@ import slide_25 from "../html/slide-25.html?raw";
 import slide_26 from "../html/slide-26.html?raw";
 import slide_27 from "../html/slide-27.html?raw";
 import slide_28 from "../html/slide-28.html?raw";
+import slide_29 from "../html/slide-29.html?raw";
+import slide_30 from "../html/slide-30.html?raw";
 
 const slides = document.querySelector(".main-content");
 slides.insertAdjacentHTML("beforeend", slide_1);
@@ -56,3 +58,5 @@ slides.insertAdjacentHTML("beforeend", slide_25);
 slides.insertAdjacentHTML("beforeend", slide_26);
 slides.insertAdjacentHTML("beforeend", slide_27);
 slides.insertAdjacentHTML("beforeend", slide_28);
+slides.insertAdjacentHTML("beforeend", slide_29);
+slides.insertAdjacentHTML("beforeend", slide_30);

@@ -1,13 +1,16 @@
 :nth-child(2 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--body-y: 13%;
+	/* --w: 900px; */
+	/* --asp: 3 / 2; */
+	--body-y: 8%;
 	--darken: 0%;
-	--overlay: var(--grd-darken);
+	--overlay: var(--grd-darken2);
 	--bg-pos: left;
 
 	font-size: 3rem;
 
+	/* border-radius: 2.5rem; */
 	.header,
 	.footer {
 		font-size: 1.75rem;

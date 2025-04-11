@@ -1,18 +1,19 @@
 :nth-child(13 of .slide) .img-maker {
 	--w: 900px;
 	--asp: 9 / 6;
-	--body-y: 20%;
-	--darken: 0%;
+	--body-y: 25%;
+	--darken: 33%;
 	--overlay: var(--grd-darken);
 	--pos: left;
 
-	font-size: 6rem;
+	font-size: 4rem;
+	border-radius: 2.5rem;
 
 	.header {
 		--col-1: 15rem;
 	}
 
 	.ttl-group {
-		gap: 0;
+		gap: 1rem;
 	}
 }

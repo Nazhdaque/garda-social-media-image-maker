@@ -39,6 +39,10 @@
 	gap: var(--gap, 2rem);
 }
 
+.header .tag + .txt {
+	text-align: center;
+}
+
 /* ||||| ||||| ||||| ||||| ||||| body */
 .body {
 	margin-top: var(--body-y, 0);
@@ -52,6 +56,10 @@
 }
 .sub span {
 	font-size: 0.75em;
+}
+
+.ttl-group > * {
+	position: relative;
 }
 
 /* ||||| ||||| ||||| ||||| ||||| common */
@@ -77,7 +85,7 @@
 }
 
 .border {
-	border: 0.125em solid var(--clr-solid);
+	border: 0.1em solid var(--clr-solid);
 	border-radius: 0.5em;
 
 	.txt {
@@ -85,6 +93,16 @@
 	}
 	.tag {
 		border-radius: 0.25em 0.25em 0.5em 0.5em;
+	}
+}
+
+.footer.border {
+	border: 0.075em solid var(--clr-solid);
+	.txt {
+		padding: var(--gap) calc(var(--gap) * 1.25) var(--gap) 0;
+	}
+	.tag {
+		border-radius: 0.25em 0.5em 0.5em 0.25em;
 	}
 }
 
