@@ -1,23 +1,23 @@
 :nth-child(4 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--body-y: 15%;
-	--darken: 0%;
-	--overlay: var(--grd-darken);
-	--pos: left;
+	--body-y: 30%;
+	--darken: 10%;
+	--overlay: var(--grd-darken3);
+	--bg-pos: left;
 
-	font-size: 2.75rem;
+	font-size: 2rem;
 
-	.header,
-	.footer {
+	.header {
 		font-size: 1.75rem;
+
+		.tag {
+			color: var(--clr-0a);
+			background-image: var(--grd-1b-1a);
+		}
 	}
 
 	.sub {
 		font-size: 0.675em;
-	}
-
-	.ttl-group {
-		--gap: 0.5rem;
 	}
 }

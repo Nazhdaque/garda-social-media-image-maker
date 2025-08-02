@@ -1,16 +1,24 @@
 :nth-child(17 of .slide) .img-maker {
 	--w: 1280px;
 	--asp: 16 / 9;
-	--body-y: 5rem;
+	--body-y: 10rem;
 	--darken: 0%;
-	--overlay: var(--grd-darken);
-	--pos: left;
+	--overlay: var(--grd-darken2), var(--grd-darken3);
+	--pos: 0%;
 
-	font-size: 4.1rem;
-	border-radius: 2.5rem;
+	font-size: 4rem;
+	/* border-radius: 2.5rem; */
 
 	.header {
 		--col-1: 17rem;
+	}
+
+	/* .ttl-group {
+		gap: 1.5rem;
+	} */
+
+	.sub {
+		font-size: 0.69em;
 	}
 
 	.footer {
@@ -21,9 +29,9 @@
 		.txt {
 			font-size: 0.75em;
 		}
-	}
 
-	.sub {
-		font-size: 0.69em;
+		.tag {
+			border-radius: 0.3em 0.5em 0.5em 0.3em;
+		}
 	}
 }

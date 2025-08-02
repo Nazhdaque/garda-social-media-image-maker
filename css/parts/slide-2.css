@@ -3,12 +3,12 @@
 	--asp: 7 / 5;
 	/* --w: 900px; */
 	/* --asp: 3 / 2; */
-	--body-y: 8%;
+	--body-y: 25%;
 	--darken: 0%;
-	--overlay: var(--grd-darken2);
-	--bg-pos: left;
+	--overlay: var(--grd-darken), var(--grd-darken3);
+	--pos: 75%;
 
-	font-size: 3rem;
+	font-size: 2.5rem;
 
 	/* border-radius: 2.5rem; */
 	.header,
@@ -17,11 +17,11 @@
 	}
 
 	.header {
-		--gap: 0.75rem;
+		--gap: 0.5rem;
 		--gtc: auto;
 
 		.txt {
-			font-size: 0.7em;
+			font-size: 0.85em;
 		}
 	}
 
@@ -30,7 +30,7 @@
 	}
 
 	.sub {
-		font-size: 0.615em;
+		font-size: 0.71em;
 	}
 
 	.header .tag + .txt {

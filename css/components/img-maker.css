@@ -51,6 +51,9 @@
 	display: grid;
 	gap: 1rem;
 }
+.ttl {
+	text-wrap: balance;
+}
 .sub {
 	font-size: 0.5em;
 }
@@ -73,7 +76,7 @@
 	padding: 0.5em 1em;
 	border-radius: 0.5em;
 }
-.tag.-grd {
+.tag.grd {
 	--clr-solid: hsl(var(--clr-0a));
 
 	background: var(--grd-1a-1b);
@@ -89,7 +92,7 @@
 	border-radius: 0.5em;
 
 	.txt {
-		padding: 0 var(--gap) var(--gap) var(--gap);
+		padding: 0 calc(var(--gap) * 2) var(--gap) calc(var(--gap) * 2);
 	}
 	.tag {
 		border-radius: 0.25em 0.25em 0.5em 0.5em;

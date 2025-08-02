@@ -47,6 +47,8 @@
 
 /* top right beam */
 .slide:before {
+	display: none;
+
 	position: absolute;
 	content: "";
 	top: -1.25rem;
