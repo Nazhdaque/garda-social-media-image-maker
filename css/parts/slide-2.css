@@ -3,12 +3,12 @@
 	--asp: 7 / 5;
 	/* --w: 900px; */
 	/* --asp: 3 / 2; */
-	--body-y: 25%;
+	--body-y: 15%;
 	--darken: 0%;
-	--overlay: var(--grd-darken), var(--grd-darken3);
-	--pos: 75%;
+	--overlay: var(--grd-darken3), var(--grd-darken);
+	--pos: 70%;
 
-	font-size: 2.5rem;
+	font-size: 3rem;
 
 	/* border-radius: 2.5rem; */
 	.header,
@@ -30,7 +30,7 @@
 	}
 
 	.sub {
-		font-size: 0.71em;
+		font-size: 0.775em;
 	}
 
 	.header .tag + .txt {

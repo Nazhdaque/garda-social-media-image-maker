@@ -1,9 +1,9 @@
 :nth-child(17 of .slide) .img-maker {
 	--w: 1280px;
 	--asp: 16 / 9;
-	--body-y: 10rem;
+	--body-y: 8rem;
 	--darken: 0%;
-	--overlay: var(--grd-darken2), var(--grd-darken3);
+	--overlay: var(--grd-darken2);
 	--pos: 0%;
 
 	font-size: 4rem;
@@ -18,7 +18,7 @@
 	} */
 
 	.sub {
-		font-size: 0.69em;
+		font-size: 0.685em;
 	}
 
 	.footer {

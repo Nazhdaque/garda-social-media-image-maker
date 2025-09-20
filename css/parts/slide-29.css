@@ -1,12 +1,12 @@
 :nth-child(29 of .slide) .img-maker {
 	--w: 700px;
 	--asp: 7 / 5;
-	--body-y: 0%;
+	--body-y: 7%;
 	--darken: 0%;
 	--overlay: var(--grd-darken2);
 	--pos: left;
 
-	font-size: 2rem;
+	font-size: 2.75rem;
 	/* border-radius: 2.5rem; */
 
 	.header {
@@ -23,7 +23,7 @@
 	}
 
 	.sub {
-		font-size: 0.66em;
+		font-size: 0.675em;
 	}
 
 	.ttl {
@@ -34,12 +34,24 @@
 	.txt {
 		position: relative;
 		top: 30%;
-		font-size: 0.5em;
+		font-size: 0.33em;
 	}
 
+	/* Семенычев */
 	.photo {
-		--pos: 8rem 0rem;
+		/* --pos: 8rem 0rem; */
 		/* --scale: 1.2; */
+	}
+
+	/* Сафонов */
+	.photo {
+		/* --pos: 16rem 3rem; */
+		/* scale: 1.2; */
+	}
+
+	/* Батранков */
+	.photo {
+		--pos: 16rem 2.65rem;
 	}
 
 	[alt="background-image"] {
